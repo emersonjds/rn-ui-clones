@@ -1,14 +1,8 @@
 import React from 'react';
-import {View, Text, SafeAreaView} from 'react-native';
 
 // import { Container } from './styles';
+import Routes from './routes';
 
-export default function App() {
-  return (
-    <SafeAreaView>
-      <View>
-        <Text>Emerson</Text>
-      </View>
-    </SafeAreaView>
-  );
-}
+const App = () => <Routes />;
+
+export default App;
