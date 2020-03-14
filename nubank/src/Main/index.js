@@ -1,12 +1,13 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import Header from '../components/Header';
 
-// import { Container } from './styles';
+import {Container} from './styles';
+import {Text} from 'react-native';
 
 export default function Main() {
   return (
-    <View>
-      <Text>Emerson</Text>
-    </View>
+    <Container>
+      <Header />
+    </Container>
   );
 }
