@@ -92,7 +92,7 @@ export default function Main() {
             </CardContent>
             <CardFooter>
               <Annotation>
-                Trasnferencia recebida de Rafael no valor de R$ 20,00
+                Trasnferencia recebida de Rafael no valor de R$ 50,00
               </Annotation>
             </CardFooter>
           </Card>
